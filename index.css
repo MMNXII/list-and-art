@@ -1,0 +1,65 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: rgb(63, 4, 102);
+}
+
+#canvas {
+  position: absolute;
+  left: 45%;
+  top: 10%;
+  width: 50%;
+  height: 70%;
+}
+
+#headerContainer {
+  width: fit-content;
+}
+
+.header {
+  display: inline;
+  text-transform: uppercase;
+  color: yellow;
+  font-size: 7em;
+  font-family: sans-serif;
+}
+
+#artText {
+  position: relative;
+  color: yellow;
+  font-size: 2em;
+}
+
+
+#formContainer {
+  position: relative;
+  left: 5%;
+}
+
+#listContainer {
+  position: relative;
+  left: 5%;
+  top: 2%;
+}
+
+li {
+  color: yellow;
+  font-style: bold;
+  font-family: sans-serif;
+}
+
+#addItem, #submit, #clear, #print {
+  border-radius: 20px;
+}
+
+#submit, #clear, #print {
+  background-color: yellow;
+  font-size: 13px;
+  font-family: sans-serif;
+}
