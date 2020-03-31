@@ -1,3 +1,8 @@
+(function () {
+
+
+
+
 var headerContainer = document.getElementById("headerContainer");
     headerContainer.style.opacity = "0";
     headerContainer.style.marginLeft = "-50%";
@@ -89,3 +94,5 @@ var ctx = canvas.getContext("2d");
         }
         return color;
     }
+
+})();
